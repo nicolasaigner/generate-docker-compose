@@ -1,0 +1,23 @@
+{
+  "name": "generate-docker-compose",
+  "version": "1.0.0",
+  "description": "Simple CLI to generate docker-compose file in projects",
+  "main": "index.cjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate-docker-compose": "index.cjs"
+  },
+  "author": "Nícolas Aigner",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "docker-hub-api": "^0.8.0",
+    "node-fetch": "^3.2.9",
+    "prompts": "^2.4.2",
+    "request-promise-native": "^1.0.9",
+    "yargs": "^17.5.1"
+  }
+}
